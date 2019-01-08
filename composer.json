@@ -1,0 +1,24 @@
+{
+  "name": "sgoranov/WebParser",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Simeon Goranov",
+      "email": "sgoranov@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebParser\\": "src/"
+    }
+  },
+  "require-dev": {
+    "zendframework/zend-dom": "^2.7@dev",
+    "soundasleep/html2text": "dev-master"
+  }
+}
